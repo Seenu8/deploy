@@ -15,5 +15,6 @@ def get_bot_response():
     return jsonify({"response": bot_response})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=80)  # Use port 80 for public HTTP access
+    app.run(host="0.0.0.0", port=5000)
+
 
